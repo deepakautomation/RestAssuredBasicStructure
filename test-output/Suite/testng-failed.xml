@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.restassured.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="CreateCustomerAPITest(failed)">
+    <classes>
+      <class name="com.restassured.testcases.CreateCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCreateCustomerAPIWithInvalidSecretkey" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.restassured.testcases.CreateCustomerTest -->
+    </classes>
+  </test> <!-- CreateCustomerAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

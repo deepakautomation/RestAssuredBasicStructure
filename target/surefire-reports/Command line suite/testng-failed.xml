@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.restassured.testcases.DeleteCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="deleteCustomer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.restassured.testcases.DeleteCustomerTest -->
+      <class name="com.restassured.rough.Testparameterization">
+        <methods>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.restassured.rough.Testparameterization -->
+      <class name="com.restassured.testcases.CreateCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCreateCustomerAPIWithInvalidSecretkey" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.restassured.testcases.CreateCustomerTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
