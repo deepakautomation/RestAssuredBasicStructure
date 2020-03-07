@@ -22,7 +22,7 @@ public class Testparameterization {
 	public static Object[][] getData(Method m) {
 		
 		ExcelReader excel = new ExcelReader(
-				"C:\\Users\\Deepak Sood\\canada\\RestAssured\\src\\test\\resources\\excel\\testdata.xlsx");
+				"./src/test/resources/excel/testdata.xlsx");
 
 		int rows = excel.getRowCount(Constants.Data_Sheet);
 		System.out.println("Total rows are : " + rows);
