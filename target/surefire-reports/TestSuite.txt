@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.128 sec <<< FAILURE!
-validateCreateCustomerAPIWithInvalidSecretkey(com.restassured.testcases.CreateCustomerTest)  Time elapsed: 3.447 sec  <<< FAILURE!
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 12.048 sec <<< FAILURE!
+validateCreateCustomerAPIWithInvalidSecretkey(com.restassured.testcases.CreateCustomerTest)  Time elapsed: 5.149 sec  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [401]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -12,7 +12,7 @@ java.lang.AssertionError: expected [200] but found [401]
 	at org.testng.Assert.assertEquals(Assert.java:662)
 	at com.restassured.testcases.CreateCustomerTest.validateCreateCustomerAPIWithInvalidSecretkey(CreateCustomerTest.java:38)
 
-testData(com.restassured.rough.Testparameterization)  Time elapsed: 1.639 sec  <<< FAILURE!
+testData(com.restassured.rough.Testparameterization)  Time elapsed: 1.26 sec  <<< FAILURE!
 org.testng.TestNGException: 
 Cannot inject @Test annotated Method [testData] with [class java.util.Hashtable].
 For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
@@ -51,7 +51,7 @@ For more information on native dependency injection please refer to http://testn
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-deleteCustomer(com.restassured.testcases.DeleteCustomerTest)  Time elapsed: 1.691 sec  <<< FAILURE!
+deleteCustomer(com.restassured.testcases.DeleteCustomerTest)  Time elapsed: 1.35 sec  <<< FAILURE!
 java.lang.AssertionError: id is not present expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)

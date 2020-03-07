@@ -7,7 +7,7 @@ public class ReadingExcelData {
 	public static void main(String[] args) {
 
 		ExcelReader excel = new ExcelReader(
-				"C:\\Users\\Deepak Sood\\canada\\RestAssured\\src\\test\\resources\\excel\\testdata.xlsx");
+				"./src/test/resources/excel/testdata.xlsx");
 
 		int rows = excel.getRowCount(Constants.Data_Sheet);
 

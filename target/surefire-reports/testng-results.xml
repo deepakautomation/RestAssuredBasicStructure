@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="4" total="10" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="6832" started-at="2019-12-25T15:21:33Z" finished-at="2019-12-25T15:21:40Z">
+  <suite name="Command line suite" duration-ms="7804" started-at="2020-03-07T19:37:35Z" finished-at="2020-03-07T19:37:43Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6832" started-at="2019-12-25T15:21:33Z" finished-at="2019-12-25T15:21:40Z">
+    <test name="Command line test" duration-ms="7804" started-at="2020-03-07T19:37:35Z" finished-at="2020-03-07T19:37:43Z">
       <class name="com.restassured.testcases.DeleteCustomerTest">
-        <test-method status="FAIL" signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.DeleteCustomerTest@45018215]" name="deleteCustomer" duration-ms="1690" started-at="2019-12-25T15:21:38Z" data-provider="data" finished-at="2019-12-25T15:21:40Z">
+        <test-method status="FAIL" signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.DeleteCustomerTest@45018215]" name="deleteCustomer" duration-ms="1349" started-at="2020-03-07T19:37:42Z" data-provider="data" finished-at="2020-03-07T19:37:43Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@ at java.lang.Thread.run(Thread.java:745)
         </test-method> <!-- deleteCustomer -->
       </class> <!-- com.restassured.testcases.DeleteCustomerTest -->
       <class name="com.restassured.testcases.CreateCustomerTest">
-        <test-method status="FAIL" signature="validateCreateCustomerAPIWithInvalidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithInvalidSecretkey" duration-ms="3442" started-at="2019-12-25T15:21:33Z" data-provider="data" finished-at="2019-12-25T15:21:36Z">
+        <test-method status="FAIL" signature="validateCreateCustomerAPIWithInvalidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithInvalidSecretkey" duration-ms="5140" started-at="2020-03-07T19:37:35Z" data-provider="data" finished-at="2020-03-07T19:37:41Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateCustomerAPIWithInvalidSecretkey -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithValidSecretkey" duration-ms="1611" started-at="2019-12-25T15:21:36Z" data-provider="data" finished-at="2019-12-25T15:21:38Z">
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithValidSecretkey" duration-ms="1231" started-at="2020-03-07T19:37:41Z" data-provider="data" finished-at="2020-03-07T19:37:42Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateCustomerAPIWithValidSecretkey -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithValidSecretkey" duration-ms="1633" started-at="2019-12-25T15:21:36Z" data-provider="data" finished-at="2019-12-25T15:21:38Z">
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithValidSecretkey" duration-ms="1232" started-at="2020-03-07T19:37:41Z" data-provider="data" finished-at="2020-03-07T19:37:42Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateCustomerAPIWithValidSecretkey -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithValidSecretkey" duration-ms="1637" started-at="2019-12-25T15:21:36Z" data-provider="data" finished-at="2019-12-25T15:21:38Z">
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretkey(java.util.Hashtable)[pri:0, instance:com.restassured.testcases.CreateCustomerTest@7219ec67]" name="validateCreateCustomerAPIWithValidSecretkey" duration-ms="1256" started-at="2020-03-07T19:37:41Z" data-provider="data" finished-at="2020-03-07T19:37:42Z">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@ at java.lang.Thread.run(Thread.java:745)
         </test-method> <!-- validateCreateCustomerAPIWithValidSecretkey -->
       </class> <!-- com.restassured.testcases.CreateCustomerTest -->
       <class name="com.restassured.rough.Testparameterization">
-        <test-method status="FAIL" signature="testData(java.util.Hashtable)[pri:0, instance:com.restassured.rough.Testparameterization@7b227d8d]" name="testData" duration-ms="0" started-at="2019-12-25T15:21:38Z" finished-at="2019-12-25T15:21:38Z">
+        <test-method status="FAIL" signature="testData(java.util.Hashtable)[pri:0, instance:com.restassured.rough.Testparameterization@7b227d8d]" name="testData" duration-ms="0" started-at="2020-03-07T19:37:42Z" finished-at="2020-03-07T19:37:42Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -178,11 +178,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
         </test-method> <!-- testData -->
       </class> <!-- com.restassured.rough.Testparameterization -->
       <class name="com.restassured.setup.BaseTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restassured.setup.BaseTest@4c1d9d4b]" name="setUp" is-config="true" duration-ms="559" started-at="2019-12-25T15:21:32Z" finished-at="2019-12-25T15:21:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restassured.setup.BaseTest@4c1d9d4b]" name="setUp" is-config="true" duration-ms="592" started-at="2020-03-07T19:37:35Z" finished-at="2020-03-07T19:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.restassured.setup.BaseTest@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-25T15:21:40Z" finished-at="2019-12-25T15:21:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.restassured.setup.BaseTest@4c1d9d4b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-07T19:37:43Z" finished-at="2020-03-07T19:37:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
